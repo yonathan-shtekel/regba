@@ -210,7 +210,7 @@ function genTranslateUrl(language, message) {
 }
 
 async function shortenUrl(longUrl) {
-  const apiUrl = `http://tinyurl.com/api-create.php?url=${encodeURIComponent(
+  const apiUrl = `https://tinyurl.com/api-create.php?url=${encodeURIComponent(
     longUrl
   )}`;
 
